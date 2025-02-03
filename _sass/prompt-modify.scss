@@ -1,0 +1,17 @@
+/* 覆盖原有图标样式 */
+.prompt-tip::before,
+.prompt-info::before,
+.prompt-warning::before,
+.prompt-danger::before {
+  content: "" !important; // 清除图标
+}
+
+/* 调整无图标后的间距 */
+.prompt-tip::before,
+.prompt-info::before,
+.prompt-warning::before,
+.prompt-danger::before {
+  padding-left: 1.5rem; // 减小左侧留白
+  border-left-width: 4px; // 保持粗边框
+  background-color: rgba(0,0,0,0.03); // 统一背景色（可选）
+}
