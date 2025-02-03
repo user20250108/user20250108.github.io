@@ -1,22 +1,42 @@
-/* 覆盖原有图标样式 */
-.prompt-tip::before,
-.prompt-info::before,
-.prompt-warning::before,
-.prompt-danger::before {
-  content: "" !important; // 清除图标
-}
+// /* 覆盖原有图标样式 */
+// .prompt-tip::before,
+// .prompt-info::before,
+// .prompt-warning::before,
+// .prompt-danger::before {
+//   content: "" !important; // 清除图标
+// }
 
-/* 调整无图标后的间距 */
-.prompt-tip::before,
-.prompt-info::before,
-.prompt-warning::before,
-.prompt-danger::before {
-  padding-left: 1.5rem; // 减小左侧留白
-  border-left-width: 4px; // 保持粗边框
-  background-color: rgba(0,0,0,0.03); // 统一背景色（可选）
-}
+// /* 调整无图标后的间距 */
+// .prompt-tip::before,
+// .prompt-info::before,
+// .prompt-warning::before,
+// .prompt-danger::before {
+//   padding-left: 1.5rem; // 减小左侧留白
+//   border-left-width: 4px; // 保持粗边框
+//   background-color: rgba(0,0,0,0.03); // 统一背景色（可选）
+// }
 
 .prompt-custom {
   border-left: 4px solid #8A2BE2;
   background-color: rgba(138,43,226,0.1);
+}
+
+.prompt-NavyBlue {
+  border-left: 4px solid #000080;
+  background-color: rgba(0,0,128,0.1);
+}
+
+.prompt-DarkGoldenrod {
+  border-left: 4px solid #B8860B;
+  background-color: rgba(184,134,11,0.1);
+}
+
+.prompt-DarkMagenta {
+  border-left: 4px solid #8B008B;
+  background-color: rgba(139,0,139,0.1);
+}
+
+.prompt-DarkGreen {
+  border-left: 4px solid #006400;
+  background-color: rgba(0,100,0,0.1);
 }
