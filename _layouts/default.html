@@ -97,8 +97,19 @@ layout: compress
       tex2jax: {
       inlineMath: [ ['$','$'], ["\\(","\\)"] ],
       displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-      processEscapes: true,
-      "HTML-CSS": { fonts: ["TeX"] }
+      processEscapes: true
+<!--       "HTML-CSS": { fonts: ["TeX"] } -->
+    },
+    "HTML-CSS": {
+      fonts: ["TeX"],
+      linebreaks: { automatic: true }, // 自动换行
+      mtextFontInherit: true, // 继承正文字体
+      styles: {
+        ".MathJax": {
+          margin: "0 0.2em", // 左右间距
+          padding: "0.1em 0" // 上下间距
+        }
+      }
     }
   });
   MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
