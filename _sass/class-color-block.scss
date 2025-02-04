@@ -1,0 +1,63 @@
+.color-block {
+  padding: 1rem 1.5rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  border-left: none;
+  background-color: rgba(0,0,128,0.1);
+
+  &--NavyBlue {
+    background-color: rgba(0,0,128,0.1);
+  }
+  &--DarkGoldenrod {
+    background-color: rgba(184,134,11,0.1);
+  }
+  &--DarkMagenta {
+    background-color: rgba(139,0,139,0.1);
+  }
+  &--DarkGreen {
+    background-color: rgba(0,100,0,0.1);
+  }
+  &--FireBrick {
+    background-color: rgba(178,34,34,0.1);
+  }
+}
+
+// .prompt-NavyBlue {
+//   padding: 1rem 1.5rem;
+//   margin: 1rem 0;
+//   border-radius: 8px;
+//   border-left: none;
+//   background-color: rgba(0,0,128,0.1);
+// }
+
+// .prompt-DarkGoldenrod {
+//   padding: 1rem 1.5rem;
+//   margin: 1rem 0;
+//   border-radius: 8px;
+//   border-left: none;
+//   background-color: rgba(184,134,11,0.1);
+// }
+
+// .prompt-DarkMagenta {
+//   padding: 1rem 1.5rem;
+//   margin: 1rem 0;
+//   border-radius: 8px;
+//   border-left: none;
+//   background-color: rgba(139,0,139,0.1);
+// }
+
+// .prompt-DarkGreen {
+//   padding: 1rem 1.5rem;
+//   margin: 1rem 0;
+//   border-radius: 8px;
+//   border-left: none;
+//   background-color: rgba(0,100,0,0.1);
+// }
+
+// .prompt-FireBrick {
+//   padding: 1rem 1.5rem;
+//   margin: 1rem 0;
+//   border-radius: 8px;
+//   border-left: none;
+//   background-color: rgba(178,34,34,0.1);
+// }
