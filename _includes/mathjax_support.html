@@ -1,14 +1,23 @@
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
-      TeX: {
-        equationNumbers: {
-          autoNumber: "AMS"
-        }
-      },
-      tex2jax: {
+    TeX: {
+      equationNumbers: {
+        autoNumber: "AMS"
+      }
+    },
+    tex2jax: {
       inlineMath: [ ['$', '$'] ],
       displayMath: [ ['$$', '$$'], ['\\[', '\\]'] ],
       processEscapes: true,
+    },
+    "HTML-CSS": {
+      fonts: ["TeX"],
+      styles: {
+        ".MathJax": {
+          margin: "0 0.3em",
+          padding: "0.1em 0"
+        }
+      }
     }
   });
   MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
